@@ -1,0 +1,19 @@
+CLASS zcl_10_eu_citizen_logali_ger DEFINITION INHERITING FROM zcl_09_citizen_logali_ger
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+*  METHODS set_id REDEFINITION.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_10_eu_citizen_logali_ger IMPLEMENTATION.
+
+
+ENDCLASS.

@@ -1,0 +1,19 @@
+CLASS zcl_padre_3_ger DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    CLASS-METHODS metodo3 RETURNING VALUE(rv_text) TYPE string.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_padre_3_ger IMPLEMENTATION.
+  METHOD metodo3.
+    rv_text = |Método 3 de Clase Padre 3|.
+  ENDMETHOD.
+ENDCLASS.

@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_RBC_GER_TEST'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_RBC_GER_TEST'
+  }
+}
+define service ZUI_RBC_GER_TEST_O4 provider contracts odata_v4_ui {
+  expose ZC_RBC_GER_TEST;
+}
