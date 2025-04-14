@@ -1,10 +1,4 @@
-INTERFACE zif_07_company_logali_ger
-  PUBLIC .
+interface ZIF_07_COMPANY_LOGALI_GER
+  public .
 
-  INTERFACES zif_06_group_logali_ger.
-
-  methods set_company_type.
-
-  ALIASES group for zif_06_group_logali_ger~set_group.
-
-ENDINTERFACE.
+endinterface.

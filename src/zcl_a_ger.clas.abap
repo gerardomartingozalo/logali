@@ -1,16 +1,13 @@
-CLASS zcl_a_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_A_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-  data atr_B type ref to ZCL_B_GER.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_a_ger IMPLEMENTATION.
+CLASS ZCL_A_GER IMPLEMENTATION.
 ENDCLASS.

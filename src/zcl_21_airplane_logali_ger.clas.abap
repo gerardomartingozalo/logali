@@ -1,18 +1,13 @@
-CLASS zcl_21_airplane_logali_ger DEFINITION ABSTRACT
-  PUBLIC
+class ZCL_21_AIRPLANE_LOGALI_GER definition
+  public
+  create private .
 
-  CREATE PUBLIC .
-
-  PUBLIC SECTION.
-
-  METHODS airplane_type ABSTRACT RETURNING VALUE(rv_plane_type) type string.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_21_airplane_logali_ger IMPLEMENTATION.
-
-
+CLASS ZCL_21_AIRPLANE_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

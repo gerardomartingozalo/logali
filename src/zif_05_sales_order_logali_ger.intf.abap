@@ -1,8 +1,4 @@
-INTERFACE zif_05_sales_order_logali_ger
-  PUBLIC .
+interface ZIF_05_SALES_ORDER_LOGALI_GER
+  public .
 
-  INTERFACES zif_04_document_logali_ger.
-
-  methods create_order IMPORTING iv_order_id TYPE string.
-
-ENDINTERFACE.
+endinterface.

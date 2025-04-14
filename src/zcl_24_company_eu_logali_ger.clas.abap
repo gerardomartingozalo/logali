@@ -1,22 +1,13 @@
-CLASS zcl_24_company_eu_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_24_COMPANY_EU_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES zif_08_co_company_logali_ger .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_24_company_eu_logali_ger IMPLEMENTATION.
-
-
-  METHOD zif_08_co_company_logali_ger~define_company.
-    rv_company = 'Company Europe'.
-
-  ENDMETHOD.
+CLASS ZCL_24_COMPANY_EU_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

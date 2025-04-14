@@ -1,29 +1,13 @@
-CLASS zcl_13_ny_plant_logali_ger DEFINITION INHERITING FROM zcl_11_plant_logali_ger
-*la clase que hereda tambien tiene acceso a los privados si es amiga el padre
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_13_NY_PLANT_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-  METHODS get_product_sl.
-
-  PROTECTED SECTION.
-
-  PRIVATE SECTION.
-
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_13_ny_plant_logali_ger IMPLEMENTATION.
-  METHOD get_product_sl.
-
-  data(lo_storage_loc) = new zcl_12_storage_loc_logali_ger(  ).
-  lo_storage_loc->product = 'PC'.
-
-  lo_storage_loc->set_product( 'PC' ).
-
-  ENDMETHOD.
-
+CLASS ZCL_13_NY_PLANT_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

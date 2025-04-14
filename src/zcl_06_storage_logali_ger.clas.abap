@@ -1,13 +1,13 @@
-CLASS zcl_06_storage_logali_ger DEFINITION INHERITING FROM zcl_05_plant_logali_ger
-  PUBLIC
-  CREATE PUBLIC .
+class ZCL_06_STORAGE_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_06_storage_logali_ger IMPLEMENTATION.
+CLASS ZCL_06_STORAGE_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

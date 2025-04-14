@@ -1,28 +1,13 @@
-CLASS zcl_09_citizen_logali_ger DEFINITION
-  PUBLIC
+class ZCL_09_CITIZEN_LOGALI_GER definition
+  public
+  create private .
 
-  CREATE PRIVATE
-  GLOBAL FRIENDS zcl_10_eu_citizen_logali_ger.
-
-  PUBLIC SECTION.
-
-    METHODS set_id FINAL IMPORTING iv_id TYPE i.
-
-    METHODS get_instace RETURNING VALUE(ro) TYPE REF TO zcl_09_citizen_logali_ger.
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_09_citizen_logali_ger IMPLEMENTATION.
-  METHOD set_id.
-
-  ENDMETHOD.
-
-  METHOD get_instace.
-    ro = NEW zcl_09_citizen_logali_ger(  ).
-  ENDMETHOD.
-
+CLASS ZCL_09_CITIZEN_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

@@ -1,22 +1,13 @@
-CLASS zcl_document_ger DEFINITION
-  PUBLIC
-    FINAL
-  CREATE PUBLIC .
+class ZCL_DOCUMENT_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-    METHODS set_title IMPORTING iv_title TYPE string.
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-    DATA title TYPE string.
-
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_document_ger IMPLEMENTATION.
-  METHOD set_title.
-    me->title = iv_title.
-  ENDMETHOD.
-
+CLASS ZCL_DOCUMENT_GER IMPLEMENTATION.
 ENDCLASS.

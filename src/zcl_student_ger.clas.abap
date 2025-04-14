@@ -1,23 +1,13 @@
-CLASS zcl_student_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_STUDENT_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-types: BEGIN OF ty_address,
-       city type string,
-       zip type string,
-       street type string,
-       END OF TY_ADDRESS.
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_student_ger IMPLEMENTATION.
-
-
+CLASS ZCL_STUDENT_GER IMPLEMENTATION.
 ENDCLASS.

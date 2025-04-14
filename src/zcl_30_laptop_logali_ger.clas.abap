@@ -1,24 +1,13 @@
-CLASS zcl_30_laptop_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_30_LAPTOP_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-    DATA keyboard TYPE REF TO zcl_29_keyboard_logali_ger .
-    METHODS constructor IMPORTING io_keyboard TYPE REF TO zcl_29_keyboard_logali_ger .
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-
-
-
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_30_laptop_logali_ger IMPLEMENTATION.
-  METHOD constructor.
-    me->keyboard = io_keyboard.
-  ENDMETHOD.
-
+CLASS ZCL_30_LAPTOP_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

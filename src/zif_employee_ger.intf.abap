@@ -1,8 +1,4 @@
-INTERFACE zif_employee_ger
-  PUBLIC .
+interface ZIF_EMPLOYEE_GER
+  public .
 
-
-  DATA name TYPE string.
-  METHODS set_name IMPORTING iv_name TYPE string.
-
-ENDINTERFACE.
+endinterface.

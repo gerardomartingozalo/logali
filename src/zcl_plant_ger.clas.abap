@@ -1,14 +1,13 @@
-CLASS zcl_plant_ger DEFINITION INHERITING FROM zcl_company_ger
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_PLANT_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_plant_ger IMPLEMENTATION.
+CLASS ZCL_PLANT_GER IMPLEMENTATION.
 ENDCLASS.

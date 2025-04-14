@@ -1,21 +1,13 @@
-CLASS zcl_25_company_usa_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_25_COMPANY_USA_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES zif_08_co_company_logali_ger .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_25_company_usa_logali_ger IMPLEMENTATION.
-
-
-  METHOD zif_08_co_company_logali_ger~define_company.
-  rv_company = 'Company USA'.
-  ENDMETHOD.
+CLASS ZCL_25_COMPANY_USA_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

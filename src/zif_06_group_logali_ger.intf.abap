@@ -1,7 +1,4 @@
-INTERFACE zif_06_group_logali_ger
-  PUBLIC .
+interface ZIF_06_GROUP_LOGALI_GER
+  public .
 
-
-    METHODS set_group.
-
-ENDINTERFACE.
+endinterface.

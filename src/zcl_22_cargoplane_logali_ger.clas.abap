@@ -1,23 +1,13 @@
-CLASS zcl_22_cargoplane_logali_ger DEFINITION INHERITING FROM zcl_21_airplane_logali_ger
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_22_CARGOPLANE_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-    METHODS airplane_type REDEFINITION.
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_22_cargoplane_logali_ger IMPLEMENTATION.
-  METHOD airplane_type.
-
-    rv_plane_type = 'Cargo Plane'.
-
-
-  ENDMETHOD.
-
+CLASS ZCL_22_CARGOPLANE_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

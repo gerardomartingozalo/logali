@@ -1,5 +1,4 @@
-INTERFACE zif_03_en_unit_logali_ger
-  PUBLIC .
+interface ZIF_03_EN_UNIT_LOGALI_GER
+  public .
 
- methods dimesions_inches RETURNING VALUE(rv_unit) type zfloat_ger.
-ENDINTERFACE.
+endinterface.

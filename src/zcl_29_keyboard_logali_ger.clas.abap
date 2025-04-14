@@ -1,17 +1,13 @@
-CLASS zcl_29_keyboard_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_29_KEYBOARD_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  data keyboard_type type string.
-
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_29_keyboard_logali_ger IMPLEMENTATION.
+CLASS ZCL_29_KEYBOARD_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

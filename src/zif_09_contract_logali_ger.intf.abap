@@ -1,8 +1,4 @@
-INTERFACE zif_09_contract_logali_ger
-  PUBLIC .
+interface ZIF_09_CONTRACT_LOGALI_GER
+  public .
 
-  data contract_type type string.
-
-  METHODS create_contract IMPORTING iv_contract_type type string.
-
-ENDINTERFACE.
+endinterface.

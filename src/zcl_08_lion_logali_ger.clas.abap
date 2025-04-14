@@ -1,26 +1,13 @@
-CLASS zcl_08_lion_logali_ger DEFINITION INHERITING FROM zcl_07_animal_logali_ger
-  PUBLIC
-  final
-  CREATE PUBLIC .
+class ZCL_08_LION_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-  METHODS walk REDEFINITION.
-
-
-  PROTECTED SECTION.
-
-
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_08_lion_logali_ger IMPLEMENTATION.
-  METHOD walk.
-
-  rv_walk = 'The Lion walks'.
-
-  ENDMETHOD.
-
+CLASS ZCL_08_LION_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

@@ -1,30 +1,13 @@
-CLASS zcl_36_conexion_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_36_CONEXION_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-    DATA hour TYPE zsyst_uzeit.
-    DATA sender_user TYPE string.
-
-    METHODS on_time_out FOR EVENT time_out OF zcl_35_timer_logali_ger
-      IMPORTING ev_hour
-                sender .
-
-
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_36_conexion_logali_ger IMPLEMENTATION.
-  METHOD on_time_out.
-    me->hour = ev_hour.
-* call logout method
-    me->sender_user = sender->user.
-
-      ENDMETHOD.
-
+CLASS ZCL_36_CONEXION_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

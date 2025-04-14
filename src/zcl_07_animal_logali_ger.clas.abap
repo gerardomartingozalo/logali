@@ -1,26 +1,13 @@
-CLASS zcl_07_animal_logali_ger DEFINITION
-  PUBLIC
-  CREATE PUBLIC .
+class ZCL_07_ANIMAL_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-  methods walk RETURNING VALUE(rv_walk) TYPE string.
-
-
-  PROTECTED SECTION.
-
-
-
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_07_animal_logali_ger IMPLEMENTATION.
-  METHOD walk.
-
-    rv_walk = 'the animal walks'.
-
-  ENDMETHOD.
-
+CLASS ZCL_07_ANIMAL_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

@@ -1,19 +1,13 @@
-CLASS zcl_order_ger DEFINITION
-  PUBLIC
-  CREATE PUBLIC .
+class ZCL_ORDER_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  METHODS add_product IMPORTING iv_product type string.
-
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_order_ger IMPLEMENTATION.
-  METHOD add_product.
-
-  ENDMETHOD.
-
+CLASS ZCL_ORDER_GER IMPLEMENTATION.
 ENDCLASS.

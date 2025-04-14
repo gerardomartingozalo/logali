@@ -1,19 +1,13 @@
-CLASS zcl_order_discount_ger DEFINITION INHERITING FROM zcl_order_ger
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_ORDER_DISCOUNT_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  METHODS add_product REDEFINITION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_order_discount_ger IMPLEMENTATION.
-  METHOD add_product.
-
-  ENDMETHOD.
-
+CLASS ZCL_ORDER_DISCOUNT_GER IMPLEMENTATION.
 ENDCLASS.

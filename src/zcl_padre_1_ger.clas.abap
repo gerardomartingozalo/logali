@@ -1,20 +1,13 @@
-CLASS zcl_padre_1_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_PADRE_1_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  CLASS-METHODS metodo1 RETURNING VALUE(rv_text) TYPE string.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_padre_1_ger IMPLEMENTATION.
-  METHOD metodo1.
-    rv_text = 'Método 1 de Clase Padre 1'.
-  ENDMETHOD.
-
+CLASS ZCL_PADRE_1_GER IMPLEMENTATION.
 ENDCLASS.

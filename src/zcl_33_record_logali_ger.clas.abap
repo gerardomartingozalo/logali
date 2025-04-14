@@ -1,15 +1,13 @@
-CLASS zcl_33_record_logali_ger DEFINITION INHERITING FROM zcl_32_constructn_contract_ger
-  PUBLIC
+class ZCL_33_RECORD_LOGALI_GER definition
+  public
+  create private .
 
-  FINAL
-  CREATE PUBLIC .
-
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_33_record_logali_ger IMPLEMENTATION.
+CLASS ZCL_33_RECORD_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

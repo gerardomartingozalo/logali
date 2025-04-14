@@ -1,16 +1,13 @@
-CLASS zcl_31_vat_ind_logali_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_31_VAT_IND_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-  data vat_indicator TYPE string.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_31_vat_ind_logali_ger IMPLEMENTATION.
+CLASS ZCL_31_VAT_IND_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

@@ -1,8 +1,6 @@
 class ZBP_R_RBC_GER_TEST definition
   public
-  abstract
-  final
-  for behavior of ZR_RBC_GER_TEST .
+  create private .
 
 public section.
 protected section.

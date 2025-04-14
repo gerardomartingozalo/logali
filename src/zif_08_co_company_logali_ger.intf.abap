@@ -1,7 +1,4 @@
-INTERFACE zif_08_co_company_logali_ger
-  PUBLIC .
+interface ZIF_08_CO_COMPANY_LOGALI_GER
+  public .
 
-  METHODS define_company RETURNING VALUE(rv_company) TYPE string..
-
-
-ENDINTERFACE.
+endinterface.

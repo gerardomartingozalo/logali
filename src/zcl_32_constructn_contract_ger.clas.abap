@@ -1,22 +1,13 @@
-CLASS zcl_32_constructn_contract_ger DEFINITION
-  PUBLIC
-*  FINAL
-  CREATE PUBLIC .
+class ZCL_32_CONSTRUCTN_CONTRACT_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES zif_09_contract_logali_ger .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_32_constructn_contract_ger IMPLEMENTATION.
-
-
-  METHOD zif_09_contract_logali_ger~create_contract.
-
-    me->zif_09_contract_logali_ger~contract_type = iv_contract_type.
-  ENDMETHOD.
+CLASS ZCL_32_CONSTRUCTN_CONTRACT_GER IMPLEMENTATION.
 ENDCLASS.

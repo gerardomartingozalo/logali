@@ -1,20 +1,13 @@
-CLASS zcl_administrador_ger DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_ADMINISTRADOR_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-
-    INTERFACES zif_employee_ger.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_administrador_ger IMPLEMENTATION.
-  METHOD zif_employee_ger~set_name.
-    me->zif_employee_ger~name = iv_name.
-  ENDMETHOD.
-
+CLASS ZCL_ADMINISTRADOR_GER IMPLEMENTATION.
 ENDCLASS.

@@ -1,21 +1,13 @@
-CLASS zcl_19_honda_logali_ger DEFINITION ABSTRACT INHERITING FROM zcl_18_moto_logali_ger
-  PUBLIC
-*  FINAL
-  CREATE PUBLIC .
+class ZCL_19_HONDA_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-
-*no tienes la obligacion de implementar los metodos por ser abstracta
-  METHODS set_model ABSTRACT EXPORTING ev_model type string.
-
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_19_honda_logali_ger IMPLEMENTATION.
-
-
-
+CLASS ZCL_19_HONDA_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.

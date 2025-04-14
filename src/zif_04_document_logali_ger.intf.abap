@@ -1,5 +1,4 @@
-INTERFACE zif_04_document_logali_ger
-  PUBLIC .
+interface ZIF_04_DOCUMENT_LOGALI_GER
+  public .
 
-    methods set_sales_doc IMPORTING iv_sales_doc type string.
-ENDINTERFACE.
+endinterface.

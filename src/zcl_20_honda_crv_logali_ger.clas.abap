@@ -1,26 +1,13 @@
-CLASS zcl_20_honda_crv_logali_ger DEFINITION INHERITING FROM zcl_19_honda_logali_ger
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_20_HONDA_CRV_LOGALI_GER definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-*esta obligada a implementar lso metodos que tiene por necima por ser la ultima que hereda que no es abstracta
-    METHODS: set_model REDEFINITION,
-             max_speed REDEFINITION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
-CLASS zcl_20_honda_crv_logali_ger IMPLEMENTATION.
-
-  METHOD max_speed.
-
-  ENDMETHOD.
-
-  METHOD set_model.
-
-  ENDMETHOD.
-
+CLASS ZCL_20_HONDA_CRV_LOGALI_GER IMPLEMENTATION.
 ENDCLASS.
